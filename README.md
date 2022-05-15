@@ -1,3 +1,3 @@
 # dipakmaliPortfolio
 ---
-Live : https://malidipak.github.io/dipakmaliPortfolio/
+Live : https://malidipak.github.io/portfolio/
