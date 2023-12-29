@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Dipak Mali | Portfolio</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Dipak Mali</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li>
+            <a href="https://github.com/MaliDipak?tab=repositories">Work</a>
+          </li>
+          <li>
+            <a href="https://malidipak.hashnode.dev/">Blog</a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Dipak Mali</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about " onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li>
+            <a
+              href="https://github.com/MaliDipak?tab=repositories"
+              onclick="toggleMenu()"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a href="https://malidipak.hashnode.dev/">Blog</a>
+          </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Dipak Mali profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dipak Mali</h1>
+        <p class="section__text__p2">Tech Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open(`./assets/Dipak Mali's Resume.pdf`)"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/malidipak';"
+            alt=""
+          />
+          <img
+            src="./assets/github.png"
+            class="icon"
+            onclick="location.href='https://github.com/malidipak'"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            class="about-pic"
+            src="./assets/profile-pic2.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="./assets/experience.png"
+                alt="Experience icon"
+              />
+              <h3>Tech Proficiency</h3>
+              <p>Data Science &<br />Full-Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                class="icon"
+                src="./assets/education.png"
+                alt="Experience icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.Tech (Data Science)<br />R. C. Patel Institute of Technology
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p id="about-text">
+              Hello, I'm Dipak Mali, a tech enthusiast and developer currently
+              pursuing a Bachelor of Technology degree with a specialization in
+              Data Science at R. C. Patel Institute of Technology. Fueled by
+              curiosity, I'm passionate about bringing creative ideas to life.
+              Proficient in C++, Python, and JavaScript, with a keen focus on
+              Full-Stack, I strive for simplicity, efficiency, and quality in my
+              work. Embracing a continuous learning mindset, I'm excited to
+              contribute my skills to the ever-evolving world of technology and
+              collaborate on projects that inspire innovation and growth. Let's
+              connect and explore the vast possibilities of the digital
+              landscape together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        alt=""
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Check Out My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Tailwindcss</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>MySql</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  class="icon"
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p>
+            <a href="mailto:thedipakmali@gmail.com">thedipakmali@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="https://www.linkedin.com/in/malidipak">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li>
+              <a href="https://github.com/MaliDipak?tab=repositories">Work</a>
+            </li>
+            <li>
+              <a href="https://malidipak.hashnode.dev/">Blog</a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Dipak Mali. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
