@@ -317,6 +317,11 @@ article .icon,
   cursor: default;
 }
 
+article div p {
+  /* display: none; */
+  font-size: small;
+}
+
 /* FOOTER SECTION */
 
 footer {
